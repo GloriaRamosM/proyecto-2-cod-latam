@@ -130,6 +130,10 @@ section{
     display: inline-block;
 }
 
+.btn-cv:hover{
+    background-color: #00DFA2;
+    transition: 0.4s;
+}
 
 /* section contacto*/
 
@@ -152,4 +156,29 @@ footer{
 footer p{
 text-align: center;
 padding-top: 30px;
+}
+
+
+/* MEDIA QUERY -  DESKTOP */
+
+@media (min-width: 1024px){
+    h1{
+        font-size: 48px;
+        text-align: left;
+    }
+
+    #inicio{
+        flex-direction: row;
+    }
+
+    .presentacion{
+        text-align: left;
+        width: 50%;
+    }
+
+    .presentacion p {
+        text-align: left;
+    }
+
+
 }
