@@ -24,10 +24,7 @@ let misgustos = [
         nombre: 'Bici',
         img: './img/bici.jpg'
     },
-    {
-        nombre: 'Poshi',
-        img: './img/IMG-0704.jpg'
-    },
+   
   {
         nombre: 'Pizza',
         img: './img/pizza.jpg'

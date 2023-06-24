@@ -33,12 +33,12 @@ main {
 
 /* Estilos generales*/
 .logo{
-    width: 80px;
+    width: 60px;
 }
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #fbfbfb;
+    background-color: #FEFCF3;
     color: #0f0f0f;
     font-size: 18px;
     line-height: 1.2;
@@ -96,7 +96,7 @@ header {
     height: 90px;
     width: 100% ;
     padding: 16px;
-    background-color: #fbfbfb;
+    background-color: #F3F5FE;
     box-shadow: 0 3px 10px -5px #5f5f5f ;
 
     position: fixed;
@@ -150,17 +150,25 @@ section{
 
 
 .btn-cv {
-    background-color: #98D8AA;
+    background-color: #6D67E4;
     padding: 12px 20px;
     border-radius: 50px;
     font-size: 20px;
     display: inline-block;
+    color:aliceblue
 }
 
 
-.btn-cv:hover, .active{
-    background-color: #00DFA2;
+.btn-cv:hover{
+    background-color: #453C67;
     transition: 0.4s;
+}
+
+.active{
+    background-color: #6D67E4;
+    color: white;
+    border-radius: 12px
+    
 }
 
 /* section contacto*/
@@ -175,7 +183,7 @@ section{
 }
 
 footer{
-    background-color: #98D8AA;
+    background-color: #F3F5FE;
     bottom: 0;
     height: 90px;
     width: 100%;
@@ -186,9 +194,7 @@ text-align: center;
 padding-top: 30px;
 }
 
-.hola{
-    background-color: red;
-}
+
 
 
 /* MEDIA QUERY -  DESKTOP */
