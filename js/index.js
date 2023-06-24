@@ -9,3 +9,52 @@ menuItems.forEach(function (item) {
 
     });
 });
+
+
+
+
+// funcion para el area de mis gustos//
+
+let misgustos = [
+    {
+        nombre: 'Crossfit',
+        img: './img/cross.jpg'
+    },
+    {
+        nombre: 'Bici',
+        img: './img/bici.jpg'
+    },
+    {
+        nombre: 'Poshi',
+        img: './img/IMG-0704.jpg'
+    },
+  {
+        nombre: 'Pizza',
+        img: './img/pizza.jpg'
+    },
+  {
+        nombre: 'Cofi',
+        img: './img/cachorro.jpg'
+    },
+    
+];
+
+function crearHTMLMisgustos(gusto) {
+    
+    let imagenGusto = document.createElement('img');
+    imagenGusto.src = gusto.img;
+    
+    let listItem = document.createElement('div');
+    
+    listItem.appendChild(imagenGusto);
+    
+    return listItem;
+  }
+
+  const listaGustos = document.querySelector('#mis-gustos');
+
+  misgustos.forEach(function(gusto) {
+    let gustosListItem = crearHTMLMisgustos (gusto)
+
+  listaGustos.appendChild(gustosListItem);
+});
